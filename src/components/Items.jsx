@@ -1,25 +1,201 @@
-import React from "react";
-import Heading from "./Heading";
-import Image from "./Image";
-import PC1 from "../assets/pc1.webp";
-import Paragraph from "./Paragraph";
+export const items = [
+    {
+        id: 1,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 1',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
 
-const Items = ({ currentItems }) => {
-    return (
-        <>
-            {currentItems &&
-                currentItems.map((item) => (
-                    <div key={item} className="w-[228px] p-5">
-                        <Image
-                            imgSrc={PC1}
-                            className="block h-[228px] w-full"
-                        />
-                        <Heading text="product heading" />
-                        <Paragraph text="Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)" />
-                    </div>
-                ))}
-        </>
-    );
-};
+    {
+        id: 2,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 2',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
 
-export default Items;
+    {
+        id: 3,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 3',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 4,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 4',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 5,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 1',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 6,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 2',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 7,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 3',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 8,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 4',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 9,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 1',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 10,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 2',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 11,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 3',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 12,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 4',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 13,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 1',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 14,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 2',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 15,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 3',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 16,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 4',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 17,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 1',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 18,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 2',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 19,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 3',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+
+    {
+        id: 20,
+        name: 'HP ProBook 440 G10 Core i5 13th Gen 14" FHD Laptop 4',
+        details:
+            "Processor: Intel Core i3-1115G4 (6MB Cache, 3.00 GHz up to 4.10 GHz)",
+        price: "95,500৳",
+        imgSrc: "src/assets/pc1.webp",
+        pageLink: "#",
+    },
+];

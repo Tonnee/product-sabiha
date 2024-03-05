@@ -6,6 +6,11 @@ export default {
             maxWidth: {
                 container: "1320px",
             },
+            colors: {
+                headingColor: "#111111",
+                detailsColor: "#666666",
+                hoverColor: "#ef4a23",
+            },
         },
     },
     plugins: [],

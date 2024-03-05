@@ -1,7 +1,7 @@
 import React from "react";
 
-const Heading = ({ text, className }) => {
-    return <h2 className={className}>{text}</h2>;
+const Heading = ({ text, className, children }) => {
+    return <h2 className={className}>{text} {children}</h2>;
 };
 
 export default Heading;
